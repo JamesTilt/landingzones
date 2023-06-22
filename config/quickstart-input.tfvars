@@ -7,13 +7,13 @@
 # ------------------------------------------------------
 # ----- Environment
 # ------------------------------------------------------
-tenancy_ocid         = "<tenancy_ocid>"
-user_ocid            = "<user_ocid>"
-fingerprint          = "<user_api_key_fingerprint>"
-private_key_path     = "<path_to_user_private_key_file>"
+tenancy_ocid         = "ocid1.tenancy.oc1..aaaaaaaapfvg4brovi7gdlkc6inwkhhxkmpekpaehcmz6z6jx7a4hyyrw5uq"
+user_ocid            = "ocid1.user.oc1..aaaaaaaaipnbovdwiond2yqgecheyrc2kpcw7rbargz3xvgskrzcohcgxaxa"
+fingerprint          = "bb:b6:65:73:b4:c7:f0:56:93:93:47:be:d5:46:0d:4e"
+private_key_path     = "/c/Users/jetilton/.oci/jamestilton1@gmail.com_2023-06-21T15_08_28.526Z.pem"
 private_key_password = ""
-region               = "<tenancy_region>"
-service_label        = "<a_label_to_prefix_resource_names_with>"
+region               = "us-ashburn-1"
+service_label        = "jameslab"
 cis_level            = "1"
 
 # ------------------------------------------------------
@@ -104,8 +104,8 @@ cis_level            = "1"
 # ------------------------------------------------------
 # ----- Events and Notifications
 # ------------------------------------------------------
-network_admin_email_endpoints    = ["<email1>","<email2>","...","<emailn>"] # list of email addresses for all network related notifications.
-security_admin_email_endpoints   = ["<email1>","<e-mail2>","...","<emailn>"] # list of email addresses for all security related notifications.
+network_admin_email_endpoints    = ["jamestilton1@gmail.com"] # list of email addresses for all network related notifications.
+security_admin_email_endpoints   = ["jamestilton1@gmail.com"] # list of email addresses for all security related notifications.
 # compute_admin_email_endpoints  = ["<email1>","<e-mail2>","...","<emailn>"] # list of email addresses for all compute related notifications.
 # storage_admin_email_endpoints  = ["<email1>","<e-mail2>","...","<emailn>"] # list of email addresses for all storage related notifications.
 # database_admin_email_endpoints = ["<email1>","<e-mail2>","...","<emailn>"] # list of email addresses for all database related notifications.
